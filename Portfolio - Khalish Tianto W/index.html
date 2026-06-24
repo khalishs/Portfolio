@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio — Khalish Tianto W</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-follower" id="cursorFollower"></div>
+
+<!-- NAV -->
+<nav id="navbar">
+  <div class="nav-logo">Portfolio</div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Project</a></li>
+    <li><a href="#certificates">Certificate</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg"></div>
+  <div class="hero-lines"></div>
+  <div class="hero-content">
+    <div class="hero-tag">UI/UX Designer</div>
+    <h1>Khalish Tianto<br /><span>Wiriadinata</span></h1>
+    <p class="hero-sub">UI/UX Designer yang berfokus pada perancangan solusi digital yang tidak hanya menarik secara visual, tetapi juga intuitif, fungsional, dan berorientasi pada kebutuhan pengguna, dengan tujuan menciptakan pengalaman yang efisien, nyaman, serta memberikan nilai nyata bagi pengembangan produk.</p>
+    <div class="hero-ctas">
+      <a href="#projects" class="btn-primary">Lihat Proyek</a>
+      <a href="#contact" class="btn-ghost">Hubungi Saya</a>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <div class="scroll-line"></div>
+    SCROLL
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-label">01 — About</div>
+  <div class="about-grid">
+    <div class="about-img-wrap reveal">
+      <div class="about-img-box">
+        <div class="about-img-placeholder"><img src="images/profile.png" alt=""></div>
+      </div>
+      <div class="about-frame"></div>
+      <div class="about-badge"></div>
+    </div>
+    <div class="about-text reveal">
+      <h2 class="section-title">Halo, Saya<br /><span class="gold italic">Khalish Tianto Wiriadianta</span></h2>
+      <p>Seorang <span class="gold">UI/UX Designer</span> berbasis di Bandung, Indonesia, dengan passion mendalam dalam menciptakan produk digital yang tidak hanya fungsional, tetapi juga indah secara visual dan intuitif bagi pengguna.</p>
+      <p>Saya percaya bahwa teknologi terbaik adalah yang terasa <span class="gold">alami dan transparan</span> — pengguna tidak berpikir tentang cara menggunakannya, mereka hanya merasakannya bekerja.</p>
+      <p>Di luar coding, saya aktif mengikuti perlombaan dan gemar mengeksplorasi desain, dan teknologi.</p>
+      <div class="skills-row">
+        <div class="skill-chip">Html</div>
+        <div class="skill-chip">CSS</div>
+        <div class="skill-chip">JavaScript</div>
+        <div class="skill-chip">Adobe XD</div>
+        <div class="skill-chip">Figma</div>
+        <div class="skill-chip">Boostrap</div>
+        <div class="skill-chip">Jira</div>
+        <div class="skill-chip">Miro</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <div class="section-label">02 — Education</div>
+  <div class="edu-section-grid">
+    <div class="edu-main">
+      <h2 class="section-title reveal" style="margin-bottom:3rem;">Riwayat<br /><span class="gold italic">Pendidikan</span></h2>
+      <div class="edu-timeline">
+
+        <div class="edu-item reveal">
+          <div class="edu-dot-wrap">
+            <div class="edu-dot"></div>
+            <div class="edu-line"></div>
+          </div>
+          <div class="edu-content">
+            <div class="edu-period">2023 — NOW</div>
+            <div class="edu-degree">S1 Rekayasa Perangkat Lunak</div>
+            <div class="edu-school">Universitas Telkom Bandung</div>
+            <p class="edu-desc">Berfokus pada pengembangan antarmuka pengguna dan rekayasa perangkat lunak. Aktif mengikuti berbagai kompetisi desain dan teknologi serta terlibat dalam proyek inovatif berbasis kebutuhan industri.</p>
+            <div class="edu-tags">
+              <span class="edu-tag">UI/UX Design</span>
+              <span class="edu-tag">Software Engineering</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="edu-item reveal">
+          <div class="edu-dot-wrap">
+            <div class="edu-dot"></div>
+            <div class="edu-line"></div>
+          </div>
+          <div class="edu-content">
+            <div class="edu-period">2020-2023</div>
+            <div class="edu-degree">Rekayasa Perangkat Lunak</div>
+            <div class="edu-school">SMK IDN Boarding School</div>
+            <p class="edu-desc">Mendalami dasar-dasar pemrograman dan pengembangan perangkat lunak. Lulus dengan predikat terbaik dan aktif dalam ekstrakulikuler teknologi serta kompetisi LKS tingkat kota.</p>
+            <div class="edu-tags">
+              <span class="edu-tag">Pemrograman Dasar</span>
+              <span class="edu-tag">UI/UX Designer</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Stats sidebar -->
+    <aside class="edu-stats-side reveal">
+      <div class="edu-stats-wrap">
+        <div class="edu-stat-item">
+          <div class="edu-stat-num">3+</div>
+          <div class="edu-stat-label">Tahun<br />Pendidikan Tinggi</div>
+        </div>
+        <div class="edu-stat-divider"></div>
+        <div class="edu-stat-item">
+          <div class="edu-stat-num">15+</div>
+          <div class="edu-stat-label">Kompetisi<br />Diikuti</div>
+        </div>
+        <div class="edu-stat-note">
+          <span class="edu-stat-note-sym">✦</span>
+          "Learning never exhausts the mind."
+        </div>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="section-dark">
+  <div class="section-label">03 — Experience</div>
+  <div class="exp-section-grid">
+    <div class="exp-main">
+      <h2 class="section-title reveal" style="margin-bottom:3rem;">Experience<br /><span class="gold italic">Saya</span></h2>
+      <div class="exp-list">
+    <div class="exp-item reveal">
+      <div class="exp-year">2022 (Januari - Juni)</div>
+      <div>
+        <div class="exp-company">Internship in Chatat.id (PT. Azara Digital Indonesiaraya)</div>
+        <div class="exp-role">UI/UX Designer</div>
+        <div class="exp-desc">Saya membuat berbagai desain, seperti tampilan halaman website dan app untuk fitur baru. dan juga membuat icon untuk fitur2 tertentu.</div>
+      </div>
+    </div>
+    <div class="exp-item reveal">
+      <div class="exp-year">---</div>
+      <div>
+        <div class="exp-company">Participate in Mobile design competition News UINIC 4.0</div>
+        <div class="exp-role">UI/UX Designer</div>
+        <div class="exp-desc">Berpartisipasi dalam kompetisi Mobile Design News UINIC 4.0 sebagai UI/UX Designer dengan merancang antarmuka aplikasi mobile yang inovatif, berfokus pada kenyamanan pengguna, serta mengutamakan estetika dan fungsionalitas.</div>
+      </div>
+    </div>
+    <div class="exp-item reveal">
+      <div class="exp-year">---</div>
+      <div>
+        <div class="exp-company">Participate in the Era Society 5.0 application creation competition, Kitcom fest 2021</div>
+        <div class="exp-role">UI/UX Designer</div>
+        <div class="exp-desc">Berpartisipasi dalam kompetisi pembuatan aplikasi Era Society 5.0 pada Kitcom Fest 2021 sebagai UI/UX Designer, dengan berkontribusi dalam merancang solusi digital yang inovatif, berfokus pada kebutuhan pengguna, serta selaras dengan perkembangan teknologi modern.</div>
+      </div>
+    </div>
+    <div class="exp-item reveal">
+      <div class="exp-year">---</div>
+      <div>
+        <div class="exp-company">Participate in the IDN IT Fest make a website, My website title is MEDIPLANTS</div>
+        <div class="exp-role">UI/UX Designer - Front End Developer</div>
+        <div class="exp-desc">Berpartisipasi dalam IDN IT Fest dengan mengembangkan website berjudul MEDIPLANTS sebagai UI/UX Designer, berfokus pada perancangan tampilan yang informatif, mudah digunakan, serta mendukung aksesibilitas informasi seputar tanaman obat.</div>
+      </div>
+    </div>
+    <div class="exp-item reveal">
+      <div class="exp-year">---</div>
+      <div>
+        <div class="exp-company">Made a book about swift, entitled 12 days which will make you proficient in the swift language.</div>
+        <div class="exp-role">IOS (Swift Language)</div>
+        <div class="exp-desc">Menulis sebuah buku tentang bahasa pemrograman Swift berjudul “12 Days”, yang dirancang untuk membantu pembaca memahami dan menjadi mahir dalam bahasa Swift secara bertahap dan terstruktur.</div>
+      </div>
+    </div>
+    <div class="exp-item reveal">
+      <div class="exp-year">---</div>
+      <div>
+        <div class="exp-company">Participate in the UI/UX Web design competition for the BPRS Patriot bank</div>
+        <div class="exp-role">UI/UX Designer</div>
+        <div class="exp-desc">Berpartisipasi dalam kompetisi desain UI/UX website untuk BPRS Patriot Bank sebagai UI/UX Designer, dengan fokus merancang antarmuka yang profesional, mudah digunakan, serta meningkatkan pengalaman dan kepercayaan pengguna.</div>
+      </div>
+    </div>
+    <div class="exp-item reveal">
+      <div class="exp-year">---</div>
+      <div>
+        <div class="exp-company">Participate and creating an AI agent project with the theme of the onboarding buddy system, which was held by IBM SkillsBuild University Education</div>
+        <div class="exp-role">AI Agent</div>
+        <div class="exp-desc">Berpartisipasi dan mengembangkan proyek AI Agent dengan tema Onboarding Buddy System yang diselenggarakan oleh IBM SkillsBuild University Education, dengan fokus menciptakan solusi interaktif untuk membantu proses adaptasi dan pendampingan pengguna baru secara efektif.</div>
+      </div>
+    </div>
+      </div>
+    </div>
+
+    <!-- Quote sidebar -->
+    <aside class="exp-quote-side reveal">
+      <div class="exp-quote-wrap">
+        <div class="exp-quote-mark">"</div>
+        <blockquote class="exp-quote-text">
+          Before working to design the <em>thing right</em>, we must first be sure we're designing the <em>right thing</em>."
+        </blockquote>
+        <div class="exp-quote-divider"></div>
+        <div class="exp-quote-author">
+          <span class="exp-quote-name">Peter Morville</span>
+          <span class="exp-quote-title">UI/UX Designer</span>
+        </div>
+        <div class="exp-quote-deco">
+          <span>DESIGN</span>
+          <span>·</span>
+          <span>EMPATHY</span>
+          <span>·</span>
+          <span>FUNCTION</span>
+        </div>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-label">03 — Project</div>
+  <h2 class="section-title reveal" style="margin-bottom:3rem;">Project<br /><span class="gold italic">Yang Pernah Dibuat</span></h2>
+  <div class="projects-grid" id="projectsGrid">
+
+    <!-- Project Card 1 -->
+    <div class="proj-card reveal"
+      data-title="Sistem Etos Kerja Perusahaan - Website"
+      data-desc="Membuat website Sistem Etos Kerja Perusahaan secara kelompok, sebagai solusi digital yang dirancang untuk membantu perusahaan dalam mengelola absensi, penggajian, serta memonitor kinerja karyawan secara lebih terstruktur, efisien, dan terintegrasi, sehingga mendukung peningkatan produktivitas dan transparansi dalam lingkungan kerja."
+      data-tags="HTML, CSS, JavaScript, Laravel, UI/UX Designer"
+      data-img="images/proj-1.png"
+      data-role="UI/UX Designer - Front-End"
+      data-year="2025"
+      data-link="#"
+      data-category=""
+      data-features="Absensi, Data Jobdesk, Data Karyawan, Penggajian, Profile">
+      <div class="proj-arrow">↗</div>
+      <div class="proj-img-wrap">
+        <img class="proj-img" src="images/proj-1.png" alt="FinTrack" onerror="this.style.display='none'" />
+      </div>
+      <div class="proj-body">
+        <div class="proj-title">Sistem Etos Kerja Perusahaan - Website</div>
+        <div class="proj-desc">Membuat website Sistem Etos Kerja Perusahaan secara kelompok, sebagai solusi digital yang dirancang untuk membantu perusahaan dalam mengelola absensi, penggajian, serta memonitor kinerja karyawan secara lebih terstruktur, efisien, dan terintegrasi, sehingga mendukung peningkatan produktivitas dan transparansi dalam lingkungan kerja.</div>
+        <div class="proj-tags">
+          <span class="proj-tag">HTML</span>
+          <span class="proj-tag">CSS</span>
+          <span class="proj-tag">JavaScript</span>
+          <span class="proj-tag">Laravel</span>
+          <span class="proj-tag">PHP</span>
+          <span class="proj-tag">Figma</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Card 2 -->
+    <div class="proj-card reveal"
+      data-title="Sistem Etos Kerja Perusahaan — Mobile App"
+      data-desc="Membuat Mobile App Sistem Etos Kerja Perusahaan secara kelompok, sebagai solusi digital yang dirancang untuk membantu perusahaan dalam mengelola absensi, penggajian, serta memonitor kinerja karyawan secara lebih terstruktur, efisien, dan terintegrasi, sehingga mendukung peningkatan produktivitas dan transparansi dalam lingkungan kerja."
+      data-tags="C#,ASP.NET,FireBase,UI/UX Design"
+      data-img="images/proj-2.png"
+      data-role="UI/UX Designer - Front-End"
+      data-year="2025"
+      data-link="#"
+      data-category=""
+      data-features="Absensi, Data Jobdesk, Data Karyawan, Penggajian, Profile">
+      <div class="proj-arrow">↗</div>
+      <div class="proj-img-wrap">
+        <div class="proj-img-placeholder"><span>002</span></div>
+        <img class="proj-img" src="images/proj-2.png" alt="EduSpace" onerror="this.style.display='none'" />
+      </div>
+      <div class="proj-body">
+        <div class="proj-title">Sistem Etos Kerja Perusahaan — Mobile App</div>
+        <div class="proj-desc">Membuat Mobile App Sistem Etos Kerja Perusahaan secara kelompok, sebagai solusi digital yang dirancang untuk membantu perusahaan dalam mengelola absensi, penggajian, serta memonitor kinerja karyawan secara lebih terstruktur, efisien, dan terintegrasi, sehingga mendukung peningkatan produktivitas dan transparansi dalam lingkungan kerja.</div>
+        <div class="proj-tags">
+          <span class="proj-tag">C#</span>
+          <span class="proj-tag">ASP.NET</span>
+          <span class="proj-tag">FireBase</span>
+          <span class="proj-tag">Figma</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Card 3 -->
+    <div class="proj-card reveal"
+      data-title="Water Health - UI/UX"
+      data-desc="Website dan aplikasi Water Health adalah proyek yang saya buat untuk mengatasi kekurangan air bersih di daerah terpencil, bekerja sama dengan perusahaan air setempat (PDAM)."
+      data-tags="Figma"
+      data-img="images/proj-3.png"
+      data-role="UI/UX Designer"
+      data-year="2024"
+      data-link="#"
+      data-category=""
+      data-features="Dashboard, Minum Air, Shelter Air, Wawasan, Berita, Pengaduan">
+      <div class="proj-arrow">↗</div>
+      <div class="proj-img-wrap">
+        <div class="proj-img-placeholder"><span>003</span></div>
+        <img class="proj-img" src="images/proj-3.png" alt="Warung Digital" onerror="this.style.display='none'" />
+      </div>
+      <div class="proj-body">
+        <div class="proj-title">Water Health - UI/UX</div>
+        <div class="proj-desc">Website dan aplikasi Water Health adalah proyek yang dibuat oleh tim saya untuk mengatasi kekurangan air bersih di daerah terpencil, bekerja sama dengan perusahaan air setempat (PDAM).</div>
+        <div class="proj-tags">
+          <span class="proj-tag">Figma</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Card 4 -->
+    <div class="proj-card reveal"
+      data-title="Pure Hydro - UI/UX"
+      data-desc="Aplikasi konsultasi kesehatan online yang menghubungkan pasien dengan dokter, dilengkapi rekam medis digital dan sistem antrian virtual. Mendukung konsultasi video real-time, resep digital, dan reminder pengobatan otomatis."
+      data-tags="React Native,Python,Docker,GraphQL"
+      data-img="images/proj-4.png"
+      data-role="UI/UX Designer"
+      data-year="2025"
+      data-link="#"
+      data-category=""
+      data-features="Dasboard, Laporan Air Bersih, Maps PDAM, Wawasan, History, Berita">
+      <div class="proj-arrow">↗</div>
+      <div class="proj-img-wrap">
+        <div class="proj-img-placeholder"><span>004</span></div>
+        <img class="proj-img" src="images/proj-4.png" alt="HealthPulse" onerror="this.style.display='none'" />
+      </div>
+      <div class="proj-body">
+        <div class="proj-title">Pure Hydro - UI/UX</div>
+        <div class="proj-desc">Aplikasi konsultasi kesehatan online yang menghubungkan pasien dengan dokter, dilengkapi rekam medis digital dan sistem antrian virtual.</div>
+        <div class="proj-tags">
+          <span class="proj-tag">Figma</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Card 5 -->
+    <div class="proj-card reveal"
+      data-title="Movie App - UI/UX"
+      data-desc="Beli Ticket film online tanpa perlu lelah ngantri di bioskop, dengan menggunakan aplikasi film."
+      data-tags="Figma"
+      data-img="images/proj-5.png"
+      data-role="UI/UX Designer"
+      data-year="2022"
+      data-link="#"
+      data-category=""
+      data-features="Beranda, Ticket, Profile">
+      <div class="proj-arrow">↗</div>
+      <div class="proj-img-wrap">
+        <div class="proj-img-placeholder"><span>005</span></div>
+        <img class="proj-img" src="images/proj-5.png" alt="SmartCity" onerror="this.style.display='none'" />
+      </div>
+      <div class="proj-body">
+        <div class="proj-title">Movie App - UI/UX</div>
+        <div class="proj-desc">Beli Ticket film online tanpa perlu lelah ngantri di bioskop, dengan menggunakan aplikasi film.</div>
+        <div class="proj-tags">
+          <span class="proj-tag">Figma</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Card 6 -->
+    <div class="proj-card reveal"
+      data-title="Health App - UI/UX"
+      data-desc="Aplikasi kesehatan adalah aplikasi yang dapat membantu kita hidup sehat. Di aplikasi ini kita dapat mengetahui detak jantung, berapa kali kita berolahraga, dan lain sebagainya."
+      data-tags="Figma"
+      data-img="images/proj-6.png"
+      data-role="UI/UX Designer"
+      data-year="2023"
+      data-link="#"
+      data-category=""
+      data-features="Beranda, Statistik, Profile">
+      <div class="proj-arrow">↗</div>
+      <div class="proj-img-wrap">
+        <div class="proj-img-placeholder"><span>005</span></div>
+        <img class="proj-img" src="images/proj-6.png" alt="SmartCity" onerror="this.style.display='none'" />
+      </div>
+      <div class="proj-body">
+        <div class="proj-title">Health App - UI/UX</div>
+        <div class="proj-desc">Aplikasi kesehatan adalah aplikasi yang dapat membantu kita hidup sehat. Di aplikasi ini kita dapat mengetahui detak jantung, berapa kali kita berolahraga, dan lain sebagainya.</div>
+        <div class="proj-tags">
+          <span class="proj-tag">Figma</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Card 7 -->
+    <div class="proj-card reveal"
+      data-title="Daily Dzikir & Doa - Mobile App"
+      data-desc="Dengan aplikasi ini kita dapat membaca doa dan zikir harian. Di sini terdapat layar pembuka, halaman utama, dan juga detail setiap menu."
+      data-tags="Kotlin, Android Studio, Figma"
+      data-img="images/proj-7.png"
+      data-role="UI/UX Designer - Front End"
+      data-year="2023"
+      data-link="#"
+      data-category=""
+      data-features="Dzikir & Doa Sunnah Sebelum, Saat dan Setelah Shalat, Dzikir dan Doa Harian, Dzikir Setiap Saat">
+      <div class="proj-arrow">↗</div>
+      <div class="proj-img-wrap">
+        <div class="proj-img-placeholder"><span>005</span></div>
+        <img class="proj-img" src="images/proj-7.png" alt="SmartCity" onerror="this.style.display='none'" />
+      </div>
+      <div class="proj-body">
+        <div class="proj-title">Daily Dzikir & Doa - Mobile App</div>
+        <div class="proj-desc">Dengan aplikasi ini kita dapat membaca doa dan zikir harian. Di sini terdapat layar pembuka, halaman utama, dan juga detail setiap menu.</div>
+        <div class="proj-tags">
+          <span class="proj-tag">Kotlin</span>
+          <span class="proj-tag">Android Studio</span>
+          <span class="proj-tag">Figma</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Card 8 -->
+    <div class="proj-card reveal"
+      data-title="Portfolio - Mobile App"
+      data-desc="Dengan aplikasi ini, kita dapat menampilkan portofolio dalam bentuk aplikasi. Terdapat halaman profil, pengalaman, dan detail."
+      data-tags="Kotlin, Android Studio, Figma"
+      data-img="images/proj-8.png"
+      data-role="UI/UX Designer - Front End"
+      data-year="2021"
+      data-link="#"
+      data-category=""
+      data-features="Beranda, Experience, About, Project, Certif, Contact">
+      <div class="proj-arrow">↗</div>
+      <div class="proj-img-wrap">
+        <div class="proj-img-placeholder"><span>005</span></div>
+        <img class="proj-img" src="images/proj-8.png" alt="SmartCity" onerror="this.style.display='none'" />
+      </div>
+      <div class="proj-body">
+        <div class="proj-title">Portfolio - Mobile App</div>
+        <div class="proj-desc">Dengan aplikasi ini, kita dapat menampilkan portofolio dalam bentuk aplikasi. Terdapat halaman profil, pengalaman, dan detail.</div>
+        <div class="proj-tags">
+          <span class="proj-tag">Kotlin</span>
+          <span class="proj-tag">Android Studio</span>
+          <span class="proj-tag">Figma</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Card 9 -->
+    <div class="proj-card reveal"
+      data-title="News - Mobile App"
+      data-desc="Dengan aplikasi ini, kita bisa mendapatkan berita terkini. Di sini kami juga memisahkan berita menurut kategori."
+      data-tags="Kotlin, Android Studio, Figma"
+      data-img="images/proj-9.png"
+      data-role="UI/UX Designer - Front End"
+      data-year="2022"
+      data-link="#"
+      data-category=""
+      data-features="Home, Detail News, Profile">
+      <div class="proj-arrow">↗</div>
+      <div class="proj-img-wrap">
+        <div class="proj-img-placeholder"><span>005</span></div>
+        <img class="proj-img" src="images/proj-9.png" alt="SmartCity" onerror="this.style.display='none'" />
+      </div>
+      <div class="proj-body">
+        <div class="proj-title">News - Mobile App</div>
+        <div class="proj-desc">Dengan aplikasi ini, kita bisa mendapatkan berita terkini. Di sini kami juga memisahkan berita menurut kategori.</div>
+        <div class="proj-tags">
+          <span class="proj-tag">Kotlin</span>
+          <span class="proj-tag">Android Studio</span>
+          <span class="proj-tag">Figma</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Card 10 -->
+    <div class="proj-card reveal"
+      data-title="MediPlants - Website"
+      data-desc="Situs web ini memudahkan kita untuk mengetahui tanaman apa yang baik atau efektif saat kita sakit. Di situs web ini kita juga dapat melihat artikel tentang kesehatan."
+      data-tags="HTML, CSS, JavaScript, Figma"
+      data-img="images/proj-10.png"
+      data-role="UI/UX Designer - Front End"
+      data-year="2024"
+      data-link="#"
+      data-category=""
+      data-features="Dashboard, About, Artikel, Contact">
+      <div class="proj-arrow">↗</div>
+      <div class="proj-img-wrap">
+        <div class="proj-img-placeholder"><span>005</span></div>
+        <img class="proj-img" src="images/proj-10.png" alt="SmartCity" onerror="this.style.display='none'" />
+      </div>
+      <div class="proj-body">
+        <div class="proj-title">MediPlants - Website</div>
+        <div class="proj-desc">Situs web ini memudahkan kita untuk mengetahui tanaman apa yang baik atau efektif saat kita sakit. Di situs web ini kita juga dapat melihat artikel tentang kesehatan.</div>
+        <div class="proj-tags">
+          <span class="proj-tag">HTML</span>
+          <span class="proj-tag">CSS</span>
+          <span class="proj-tag">JavaScript</span>
+          <span class="proj-tag">Figma</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Card 11 -->
+    <div class="proj-card reveal"
+      data-title="On Boarding Buddy System - AI Agent"
+      data-desc="Onboarding Buddy System berbasis AI Agent yang dirancang untuk membantu proses onboarding karyawan baru secara otomatis dan interaktif. Sistem ini memanfaatkan teknologi embedding, vector database, dan large language model (LLM) untuk memahami dokumen perusahaan dan memberikan jawaban cerdas terhadap pertanyaan pengguna."
+      data-tags="LangFlow"
+      data-img="images/proj-11.png"
+      data-role="AI Agent"
+      data-year="2026"
+      data-link="#"
+      data-category=""
+      data-features="Upload dan Pengolahan Dokumen, Text Embedding (Representasi Vektor), Prompt Engineering, Semantic Search">
+      <div class="proj-arrow">↗</div>
+      <div class="proj-img-wrap">
+        <div class="proj-img-placeholder"><span>005</span></div>
+        <img class="proj-img" src="images/proj-11.png" alt="SmartCity" onerror="this.style.display='none'" />
+      </div>
+      <div class="proj-body">
+        <div class="proj-title">On Boarding Buddy System - AI Agent</div>
+        <div class="proj-desc">Onboarding Buddy System berbasis AI Agent yang dirancang untuk membantu proses onboarding karyawan baru secara otomatis dan interaktif. Sistem ini memanfaatkan teknologi embedding, vector database, dan large language model (LLM) untuk memahami dokumen perusahaan dan memberikan jawaban cerdas terhadap pertanyaan pengguna.</div>
+        <div class="proj-tags">
+          <span class="proj-tag">LangFlow</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Add More Card -->
+    <div class="proj-card proj-add reveal">
+      <div class="proj-add-inner">
+        <div class="proj-add-icon">+</div>
+        <div class="proj-add-label">DAN BANYAK LAGI<br/>PROYEK LAINNYA</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATES -->
+<section id="certificates" class="section-dark">
+  <div class="section-label">04 — Certificate</div>
+  <h2 class="section-title reveal" style="margin-bottom:3rem;">Sertifikat &amp;<br /><span class="gold italic">Pencapaian</span></h2>
+  <div class="cert-grid">
+
+    <div class="cert-card reveal" data-cert-id="1">
+      <div class="cert-arrow">↗</div>
+      <div class="cert-img-wrap">
+        <div class="cert-img-placeholder" id="cert-ph-1">
+          <span class="cert-icon-sym">☁</span>
+        </div>
+        <img id="cert-img-1" class="cert-img" src="images/cert-1.png" alt="AWS Certified Solutions Architect" onerror="this.classList.add('hidden');document.getElementById('cert-ph-1').style.display=''" />
+      </div>
+      <div class="cert-body">
+        <div class="cert-ribbon"></div>
+        <div class="cert-title">Memulai Pemrograman dengan Swift</div>
+        <div class="cert-issuer">Dicoding</div>
+        <div class="cert-year">2021</div>
+      </div>
+    </div>
+
+    <div class="cert-card reveal" data-cert-id="2">
+      <div class="cert-arrow">↗</div>
+      <div class="cert-img-wrap">
+        <div class="cert-img-placeholder" id="cert-ph-2">
+          <span class="cert-icon-sym">⬡</span>
+        </div>
+        <img id="cert-img-2" class="cert-img" src="images/cert-2.png" alt="Professional Cloud Developer" onerror="this.classList.add('hidden');document.getElementById('cert-ph-2').style.display=''" />
+      </div>
+      <div class="cert-body">
+        <div class="cert-ribbon"></div>
+        <div class="cert-title">Web Development Competation</div>
+        <div class="cert-issuer">IDN IT FEST</div>
+        <div class="cert-year">2021</div>
+      </div>
+    </div>
+
+    <div class="cert-card reveal" data-cert-id="3">
+      <div class="cert-arrow">↗</div>
+      <div class="cert-img-wrap">
+        <div class="cert-img-placeholder" id="cert-ph-3">
+          <span class="cert-icon-sym">◈</span>
+        </div>
+        <img id="cert-img-3" class="cert-img" src="images/cert-3.png" alt="Meta Frontend Developer" onerror="this.classList.add('hidden');document.getElementById('cert-ph-3').style.display=''" />
+      </div>
+      <div class="cert-body">
+        <div class="cert-ribbon"></div>
+        <div class="cert-title">Kitcom Fest Competation</div>
+        <div class="cert-issuer">Kitcom Fest</div>
+        <div class="cert-year">2021</div>
+      </div>
+    </div>
+
+    <div class="cert-card reveal" data-cert-id="4">
+      <div class="cert-arrow">↗</div>
+      <div class="cert-img-wrap">
+        <div class="cert-img-placeholder" id="cert-ph-4">
+          <span class="cert-icon-sym">▣</span>
+        </div>
+        <img id="cert-img-4" class="cert-img" src="images/cert-4.png" alt="Certified Kubernetes Administrator" onerror="this.classList.add('hidden');document.getElementById('cert-ph-4').style.display=''" />
+      </div>
+      <div class="cert-body">
+        <div class="cert-ribbon"></div>
+        <div class="cert-title">Kursus SQL</div>
+        <div class="cert-issuer">Progate</div>
+        <div class="cert-year">2021</div>
+      </div>
+    </div>
+
+    <div class="cert-card reveal" data-cert-id="5">
+      <div class="cert-arrow">↗</div>
+      <div class="cert-img-wrap">
+        <div class="cert-img-placeholder" id="cert-ph-5">
+          <span class="cert-icon-sym">✦</span>
+        </div>
+        <img id="cert-img-5" class="cert-img" src="images/cert-5.png" alt="TensorFlow Developer Certificate" onerror="this.classList.add('hidden');document.getElementById('cert-ph-5').style.display=''" />
+      </div>
+      <div class="cert-body">
+        <div class="cert-ribbon"></div>
+        <div class="cert-title">HTML Course</div>
+        <div class="cert-issuer">Sololearn</div>
+        <div class="cert-year">2021</div>
+      </div>
+    </div>
+
+    <div class="cert-card reveal" data-cert-id="6">
+      <div class="cert-arrow">↗</div>
+      <div class="cert-img-wrap">
+        <div class="cert-img-placeholder" id="cert-ph-6">
+          <span class="cert-icon-sym">◎</span>
+        </div>
+        <img id="cert-img-6" class="cert-img" src="images/cert-6.png" alt="Dicoding Backend Developer Expert" onerror="this.classList.add('hidden');document.getElementById('cert-ph-6').style.display=''" />
+      </div>
+      <div class="cert-body">
+        <div class="cert-ribbon"></div>
+        <div class="cert-title">Intelligent by Design: Build an AI Agent</div>
+        <div class="cert-issuer">IBM Skills Build</div>
+        <div class="cert-year">2026</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-inner">
+    <div class="section-label" style="justify-content:center;">05 — Contact</div>
+    <h2 class="section-title reveal">Mari Berkolaborasi<br /><span class="gold italic">Bersama</span></h2>
+    <p class="reveal">Punya ide proyek menarik atau ingin berdiskusi tentang peluang kerja sama? Saya selalu terbuka untuk percakapan baru.</p>
+    <div class="contact-links reveal">
+      <a href="mailto:alex@pratama.dev" class="contact-link">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        khalishtianto.w@gmail.com
+      </a>
+      <a href="https://www.linkedin.com/in/khalish-tianto-b54565218/" target="_blank" class="contact-link">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+        LinkedIn
+      </a>
+      <a href="https://github.com/khalishs" target="_blank" class="contact-link">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+        GitHub 1
+      </a>
+      <a href="https://github.com/khalish29" target="_blank" class="contact-link">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+        GitHub 2
+      </a>
+      <a href="https://wa.me/628159646281" target="_blank" class="contact-link">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.136.564 4.14 1.544 5.879L0 24l6.285-1.518A11.94 11.94 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.88 0-3.638-.502-5.155-1.38l-.371-.218-3.826.924.946-3.72-.24-.389A9.959 9.959 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+        WhatsApp
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 <span class="gold">Khalish Tianto Wiriadinata</span>. Dirancang &amp; Dibangun dengan ♥</p>
+  <p>Bandung, Indonesia 🇮🇩</p>
+</footer>
+
+<!-- PROJECT DETAIL MODAL -->
+<div class="proj-modal" id="projModal">
+  <div class="proj-modal-overlay" id="projModalOverlay"></div>
+  <div class="proj-modal-content" id="projModalContent">
+    <button class="proj-modal-close" id="projModalClose">✕</button>
+    <div class="proj-modal-img-wrap">
+      <div class="proj-modal-img-placeholder" id="projModalPlaceholder"><span id="projModalNum">001</span></div>
+      <img id="projModalImg" class="proj-modal-img" src="" alt="" />
+    </div>
+    <div class="proj-modal-body">
+      <div class="proj-modal-category" id="projModalCategory"></div>
+      <div class="proj-modal-meta">
+        <span class="proj-modal-role" id="projModalRole"></span>
+        <span class="proj-modal-year" id="projModalYear"></span>
+      </div>
+      <h3 class="proj-modal-title" id="projModalTitle"></h3>
+      <p class="proj-modal-desc" id="projModalDesc"></p>
+      <div class="proj-modal-features-wrap" id="projModalFeaturesWrap">
+        <div class="proj-modal-features-label">Fitur Utama</div>
+        <ul class="proj-modal-features" id="projModalFeatures"></ul>
+      </div>
+      <div class="proj-modal-tags" id="projModalTags"></div>
+      <a href="#" class="proj-modal-btn" id="projModalLink" target="_blank">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        Lihat Proyek
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- Image Lightbox -->
+<div class="lightbox" id="lightbox">
+  <div class="lightbox-overlay" id="lightboxOverlay"></div>
+  <div class="lightbox-content">
+    <button class="lightbox-close" id="lightboxClose">✕</button>
+    <img id="lightboxImg" src="" alt="Preview" />
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
